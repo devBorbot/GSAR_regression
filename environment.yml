@@ -1,0 +1,20 @@
+name: snowflake_ml_env
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10  # Snowflake recommends 3.9–3.12 for Snowpark[32]
+  - numpy=1.26.4           # latest from Anaconda main as of late July 2025[18]
+  - pandas=2.2.3           # latest from Anaconda main July 2025[19]
+  - scikit-learn=1.5.0     # latest from Anaconda main July 2025[18]
+  - scipy=1.14.0           # latest from Anaconda main July 2025[18]
+  - matplotlib=3.9.1       # latest from Anaconda main July 2025[18]
+  - xgboost=2.0.3          # compatible for ML/shap support, latest as of July 2025
+  - snowflake-snowpark-python=1.11.0   # latest Snowpark Python API[18]
+  - shap=0.48.0            # latest from conda-forge compatible with Anaconda[39]
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pip
+
